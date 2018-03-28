@@ -1,0 +1,3 @@
+                    synonquerybox3.Text = array[2];
+                    synonquerybox3.Text = array[2];
+dog is pet animal my teacher loves it

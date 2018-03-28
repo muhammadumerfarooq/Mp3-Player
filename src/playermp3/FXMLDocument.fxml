@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" disable="false" opacity="1.0" prefHeight="450.00010681152344" prefWidth="470.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="playermp3.FXMLDocumentController">
+  <children>
+    <Button fx:id="btn1" defaultButton="true" disable="false" graphicTextGap="4.0" layoutX="115.0" layoutY="23.0" onAction="#Button1Action" prefHeight="100.0" prefWidth="225.0" text="Admin Account" textFill="BLACK" textOverrun="CLIP" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="18.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="btn2" defaultButton="true" font="$x1" layoutX="115.0" layoutY="146.0" onAction="#Button2Action" prefHeight="100.0" prefWidth="225.0" text="User Account" textFill="BLACK" textOverrun="CLIP" />
+    <Button fx:id="btn3" defaultButton="true" font="$x1" layoutX="115.0" layoutY="279.0" onAction="#Button3Action" prefHeight="100.0" prefWidth="225.0" text="Root User Account" textFill="BLACK" textOverrun="CLIP" />
+  </children>
+  <effect>
+    <ColorAdjust brightness="0.09160305343511443" hue="-0.6259541984732825" saturation="1.0" />
+  </effect>
+</AnchorPane>
